@@ -1,0 +1,18 @@
+disaster_alert_system/
+├── data/
+│   ├── satellite_images/       # Satellite imagery datasets
+│   ├── weather_data.csv        # Weather datasets
+├── models/
+│   ├── flood_model.pkl         # Trained model for flood prediction
+│   ├── wildfire_model.pkl      # Trained model for wildfire detection
+│   ├── earthquake_model.pkl    # Trained model for earthquake prediction
+├── app/
+│   ├── main.py                 # Main application logic
+│   ├── predict.py              # Prediction functions
+│   ├── data_processing.py      # Data preprocessing scripts
+│   ├── train_models.py         # Training scripts
+│   ├── requirements.txt        # Dependencies
+│   └── templates/              # HTML templates for web interface
+│       ├── index.html
+│       ├── results.html
+├── README.md                   # Documentation
