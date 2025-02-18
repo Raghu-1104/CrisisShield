@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Disaster Alert System</title>
+</head>
+<body>
+    <h1>Disaster Alert System</h1>
+    <form action="/predict" method="post">
+        <label for="disaster_type">Disaster Type:</label>
+        <select id="disaster_type" name="disaster_type">
+            <option value="flood">Flood</option>
+            <option value="wildfire">Wildfire</option>
+            <option value="earthquake">Earthquake</option>
+        </select>
+        <label for="location">Location Data:</label>
+        <input type="text" id="location" name="location">
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
